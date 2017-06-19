@@ -59,10 +59,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharpViaTest.Collections\10_EnumerablePractices\ReinventingDistinct.cs" />
+    <Compile Include="CSharpViaTest.Collections\10_EnumerablePractices\ReinventingNoSeedAggregate.cs" />
+    <Compile Include="CSharpViaTest.Collections\10_EnumerablePractices\SkippedEnumeratorPractice.cs" />
+    <Compile Include="CSharpViaTest.Collections\10_EnumerablePractices\TreeEnumeratorPractice.cs" />
+    <Compile Include="CSharpViaTest.Collections\20_YieldPractices\FibonacciEnumerable.cs" />
+    <Compile Include="CSharpViaTest.Collections\20_YieldPractices\ReinventingCast.cs" />
+    <Compile Include="CSharpViaTest.Collections\20_YieldPractices\ReinventingDistinct.cs" />
+    <Compile Include="CSharpViaTest.Collections\20_YieldPractices\TakeUntilCatchingAnException.cs" />
+    <Compile Include="CSharpViaTest.Collections\20_YieldPractices\YieldReturnWillCreateStateMachine.cs" />
+    <Compile Include="CSharpViaTest.Collections\Helpers\Comparators.cs" />
+    <Compile Include="CSharpViaTest.Collections\Helpers\NumberStreamFactory.cs" />
+    <Compile Include="CSharpViaTest.Collections\Helpers\RunOnceExtension.cs" />
+    <Compile Include="CSharpViaTest.Collections\Helpers\TextStreamFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CSharpViaTest.Collections\30_MapReducePractices\" />
+    <Folder Include="CSharpViaTest.Collections\40_CommonManipulation\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
